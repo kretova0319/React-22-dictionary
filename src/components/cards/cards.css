@@ -1,0 +1,22 @@
+.main {
+  text-align: center;
+}
+.card {
+  margin: 0 auto;
+  width: 400px;
+  height: 300px;
+  border: 1px solid #000;
+  background-color: #000;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.word {
+  flex: 1 1 auto;
+  font-size: 50px;
+  padding: 50px;
+}
+.todo {
+  padding-bottom: 30px;
+}
