@@ -1,10 +1,15 @@
-import "./footer.css";
-export function Footer() {
+import "./Footer.css";
+function Footer() {
   return (
-    <>
-      <footer>
-        <h2>Здесь будет футер</h2>
-      </footer>
-    </>
+    <footer className="footer">
+      <section className="footer__container">
+        <img
+          className="logo"
+          src="https://sstk.biz/images/studystacklogo.svg"
+          alt="логотип сайта"
+        ></img>
+      </section>
+    </footer>
   );
 }
+export default Footer;

@@ -1,15 +1,16 @@
-import { Cards } from "../src/components/cards/Cards";
-import { Header } from "../src/components/header/Header";
-import { Footer } from "../src/components/footer/Footer";
+import Header from "../src/components/Header/Header";
+import Footer from "../src/components/Footer/Footer";
+
+import Carusel from "./components/Carusel/Carusel";
+import { Cards } from "./components/Cards/Cards";
 
 function App() {
   return (
     <>
-      <div className="container">
-        <Header />
-        <Cards />
-        <Footer />
-      </div>
+      <Header />
+      <Cards />
+      <Carusel />
+      <Footer />
     </>
   );
 }
